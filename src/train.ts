@@ -1,4 +1,31 @@
 
+/*H-TASK: 
+
+ Shunday function tuzing,
+  u string qabul qilib teskari qilib return qilsin
+ MASALAN: gerReverse("hello") return qiladi "olleh"
+
+
+ */
+
+
+function str(txt: string): void {
+    const a: string = txt.split('').reverse().join('');
+    console.log(a);
+  }
+  
+  str('hello');
+  
+
+
+
+
+
+
+
+
+
+
 /*G-TASK: 
 
 Shunday function tuzingki unga integerlardan iborat array pass bolsin va function bizga osha arrayning eng katta qiymatiga tegishli birinchi indexni qaytarsin.
@@ -6,13 +33,13 @@ MASALAN: getHighestIndex([5, 21, 12, 21, 8]) return qiladi 1 sonini.
 
 
 */
-function getHighestIndex(arr) {
-    const highestIndex = arr.reduce((acc, cur, idx) => cur > arr[acc] ? idx : acc, 0);
-    console.log(highestIndex);
-    return highestIndex;
-}
+// function getHighestIndex(arr) {
+//     const highestIndex = arr.reduce((acc, cur, idx) => cur > arr[acc] ? idx : acc, 0);
+//     console.log(highestIndex);
+//     return highestIndex;
+// }
 
-getHighestIndex([5, 21, 12, 21, 8]); 
+// getHighestIndex([5, 21, 12, 21, 8]); 
 
 
 
