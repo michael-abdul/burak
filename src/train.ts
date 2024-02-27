@@ -21,7 +21,7 @@ abc([7,-9,5,-4,2]);
 // class => PASCAL
 // folder = KEBAB
 // css => Snake                        button_style
--Error handling
+// -Error handling
 
 
 
