@@ -19,11 +19,15 @@ abc([7,-9,5,-4,2]);
 // -Naming standards
 // function, method, variable => camelCase
 // class => PASCAL
-// folder = KEBAB
+// folder, file = KEBAB
 // css => Snake                        button_style
 // -Error handling
 
 
+
+//Traditional API
+//Rest API
+//GraphQL API
 
 
 

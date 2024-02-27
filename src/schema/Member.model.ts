@@ -26,7 +26,7 @@ const memberSchema = new Schema({
         required: true,
     },
 
-    memberPasswoed:{
+    memberPassword:{
         type: String,
         select: false,
         required: true
