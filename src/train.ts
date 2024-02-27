@@ -14,11 +14,38 @@ const c=b.join("");
 abc([7,-9,5,-4,2]);
 
 
+// Project Standards:
+// -Logging standards
+// -Naming standards
+// function, method, variable => camelCase
+// class => PASCAL
+// folder = KEBAB
+// css => Snake                        button_style
+-Error handling
 
 
 
 
-/*H-TASK: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*g-TASK: 
 
  Shunday function tuzing,
   u string qabul qilib teskari qilib return qilsin
