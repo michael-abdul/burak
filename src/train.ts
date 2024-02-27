@@ -1,3 +1,22 @@
+// H-TASK: 
+
+// shunday function tuzing, u integerlardan iborat arrayni argument sifatida qabul qilib, faqat positive qiymatlarni olib string holatda return qilsin
+// MASALAN: getPositive([1, -4, 2]) return qiladi "12"
+
+
+function abc(a:number[]) {
+  const b = a.filter((a)=>{
+     return a>0;
+ });
+const c=b.join("");
+  console.log(c);
+}
+abc([7,-9,5,-4,2]);
+
+
+
+
+
 
 /*H-TASK: 
 
@@ -9,12 +28,12 @@
  */
 
 
-function str(txt: string): void {
-    const a: string = txt.split('').reverse().join('');
-    console.log(a);
-  }
+// function str(txt: string): void {
+//     const a: string = txt.split('').reverse().join('');
+//     console.log(a);
+//   }
   
-  str('hello');
+//   str('hello');
   
 
 
