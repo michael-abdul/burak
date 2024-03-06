@@ -1,4 +1,10 @@
 
+// Traditional FD => BSSR  Admin=>EJS
+// Modern FD => SPA User => REACT
+
+
+
+
 // I-TASK: 
 
 // Shunday function tuzing, unga string argument pass bolsin. Function ushbu agrumentdagi digitlarni yangi stringda return qilsin
