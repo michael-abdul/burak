@@ -1,3 +1,11 @@
+//Cookie:
+// request join
+//self destroy
+
+
+
+
+
 
 // Traditional FD => BSSR  Admin=>EJS
 // Modern FD => SPA User => REACT
