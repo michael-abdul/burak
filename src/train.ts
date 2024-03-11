@@ -1,3 +1,8 @@
+// Validations:
+// FD validation
+// BD vatidation
+// Database vaedation
+
 // K-TASK: 
 
 // Shunday function yozing, u string qabul qilsin 
