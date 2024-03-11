@@ -1,3 +1,29 @@
+// K-TASK: 
+
+// Shunday function yozing, u string qabul qilsin 
+// va string ichidagi unli harflar sonini qaytarsin.
+// MASALAN: countVowels("string") return 1;
+
+function countVowels(txt:string):number{
+  const vowels = ['a', 'e', 'i', 'o', 'u'];
+  
+  return txt.toLowerCase().split("").reduce((count, value) => {
+    if (vowels.includes(value)) {
+      return count + 1;
+    } else {
+      return count;
+    }
+  }, 0);
+}
+
+console.log(countVowels("string"));
+
+
+
+
+
+
+
 //Cookie:
 // request join
 //self destroy
@@ -20,12 +46,12 @@
 
 
 
-function getDigits(str:string):void{
-  const a = str.split('').filter(ele => !isNaN(Number(ele))).join('');
-  console.log(a);
-}
+// function getDigits(str:string):void{
+//   const a = str.split('').filter(ele => !isNaN(Number(ele))).join('');
+//   console.log(a);
+// }
 
-getDigits("kfjdfslhf545kj4l5kj4bj5kl4");
+// getDigits("kfjdfslhf545kj4l5kj4bj5kl4");
 
 
 
