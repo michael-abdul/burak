@@ -17,6 +17,18 @@ constructor() {
 
 
 // SSR
+
+
+public async getAllProducts():Promise<Product[]>{
+    const result = await this.productModel.find()
+    .exec();
+    if(!result) throw new Errors(HttpCode.NOT_FOUND, Message.NO_DATA_FOUND);
+    //console.log("result", result);
+    return result;
+    
+    }
+    
+
 public async createNewProduct(input:ProductInput):Promise <Product>{
     try{
     return await this.productModel.create(input);
@@ -27,10 +39,7 @@ public async createNewProduct(input:ProductInput):Promise <Product>{
     }
 }
 
-public async updateChosenProduct(
-    id:string,
-    input: ProductUpdateInput
-):Promise<Product>{
+public async updateChosenProduct(id:string ,input: ProductUpdateInput):Promise<Product>{
 //string =>ObjectId
 id = shapeIntoMongooseObjectId(id);
 const result = await this.productModel.findOneAndUpdate( { _id: id}, input, {new: true})
