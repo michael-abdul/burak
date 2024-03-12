@@ -1,3 +1,55 @@
+// L-TASK: 
+
+// Shunday function yozing, u string qabul qilsin 
+// va string ichidagi hamma sozlarni chappasiga yozib va
+// sozlar ketma-ketligini buzmasdan stringni qaytarsin.
+// MASALAN: reverseSentence("we like coding!") return "ew ekil gnidoc";
+
+function str(txt:string):void {
+  const a = txt.split(' ').map(ele => ele.split('').reverse().join('')).join(' ');
+  console.log(a);
+
+  
+
+}
+str("we like coding")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Validations:
 // FD validation
 // BD vatidation
@@ -9,19 +61,19 @@
 // va string ichidagi unli harflar sonini qaytarsin.
 // MASALAN: countVowels("string") return 1;
 
-function countVowels(txt:string):number{
-  const vowels = ['a', 'e', 'i', 'o', 'u'];
+// function countVowels(txt:string):number{
+//   const vowels = ['a', 'e', 'i', 'o', 'u'];
   
-  return txt.toLowerCase().split("").reduce((count, value) => {
-    if (vowels.includes(value)) {
-      return count + 1;
-    } else {
-      return count;
-    }
-  }, 0);
-}
+//   return txt.toLowerCase().split("").reduce((count, value) => {
+//     if (vowels.includes(value)) {
+//       return count + 1;
+//     } else {
+//       return count;
+//     }
+//   }, 0);
+// }
 
-console.log(countVowels("string"));
+// console.log(countVowels("string"));
 
 
 
