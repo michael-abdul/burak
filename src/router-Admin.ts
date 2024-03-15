@@ -38,4 +38,6 @@ routerAdmin.post(
 //User
 
 routerAdmin.get("/user/all", restaurantController.verifyRestraurant,restaurantController.getUsers)
+routerAdmin.post("/user/edit", restaurantController.verifyRestraurant,restaurantController.updateChosenUser)
+
 export default routerAdmin;
