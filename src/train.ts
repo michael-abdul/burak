@@ -1,3 +1,77 @@
+// M-TASK: 
+
+// Shunday function yozing, u raqam lard an tashkil topgan array qabul qilsin va array ichidagi har bir raqam uchun raqamni ozi va hamda osha raqamni kvadratidan tashkil topgan object hosil qilib, hosil bolgan objectlarni array ichida qaytarsin.
+// MASALAN: getSquareNumbers([1, 2, 3]) return [{number: 1, square: 1}, {number: 2, square: 4}, {number: 3, square: 9}];
+
+interface T {
+number: number;
+square:number;
+}
+
+function getSquareNumbers (number: number[]) :T[]{
+  const result:T[] = number.map(num => ({ number: num, square: num * num }));
+    console.log(result);
+  return result;
+};
+
+getSquareNumbers([10, 11, 12, 13]); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // L-TASK: 
 
 // Shunday function yozing, u string qabul qilsin 
@@ -5,14 +79,14 @@
 // sozlar ketma-ketligini buzmasdan stringni qaytarsin.
 // MASALAN: reverseSentence("we like coding!") return "ew ekil gnidoc";
 
-function str(txt:string):void {
-  const a = txt.split(' ').map(ele => ele.split('').reverse().join('')).join(' ');
-  console.log(a);
+// function str(txt:string):void {
+//   const a = txt.split(' ').map(ele => ele.split('').reverse().join('')).join(' ');
+//   console.log(a);
 
   
 
-}
-str("we like coding")
+// }
+// str("we like coding")
 
 
 
