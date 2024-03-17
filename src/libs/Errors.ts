@@ -19,7 +19,7 @@ export enum Message {
     CREATE_FAILED = "Create is failed!",
     UPDATE_FAILED = "Update is failed!",
     USED_NICK_PHONE = "You are inserting already used nick or phone!",    
-    NO_MEMBER_NICK = "NO member with member nick!",
+    NO_MEMBER_NICK = "No member with member nick!",
     WRONG_PASSWORD = "Wrong password please try again!",
     NOT_AUTHENTICATED = "You are not athenticated, Please login first"
 }

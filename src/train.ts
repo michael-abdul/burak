@@ -1,20 +1,59 @@
-// M-TASK: 
 
-// Shunday function yozing, u raqam lard an tashkil topgan array qabul qilsin va array ichidagi har bir raqam uchun raqamni ozi va hamda osha raqamni kvadratidan tashkil topgan object hosil qilib, hosil bolgan objectlarni array ichida qaytarsin.
-// MASALAN: getSquareNumbers([1, 2, 3]) return [{number: 1, square: 1}, {number: 2, square: 4}, {number: 3, square: 9}];
+// N-TASK: 
 
-interface T {
-number: number;
-square:number;
-}
+// Shunday function yozing, u string qabul qilsin va string palindrom yani togri oqilganda ham, orqasidan oqilganda ham bir hil oqiladigan soz ekanligini aniqlab boolean qiymat qaytarsin.
+// MASALAN: palindromCheck("dad") return true;  palindromCheck("son") return false;
 
-function getSquareNumbers (number: number[]) :T[]{
-  const result:T[] = number.map(num => ({ number: num, square: num * num }));
-    console.log(result);
-  return result;
-};
 
-getSquareNumbers([10, 11, 12, 13]); 
+function palindromCheck(str:string){
+   const a = str=== str.split('').reverse().join('');
+    console.log(a);
+  }
+  palindromCheck("dad");
+  palindromCheck("son");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // // M-TASK: 
+
+// // Shunday function yozing, u raqam lard an tashkil topgan array qabul qilsin va array ichidagi har bir raqam uchun raqamni ozi va hamda osha raqamni kvadratidan tashkil topgan object hosil qilib, hosil bolgan objectlarni array ichida qaytarsin.
+// // MASALAN: getSquareNumbers([1, 2, 3]) return [{number: 1, square: 1}, {number: 2, square: 4}, {number: 3, square: 9}];
+
+// interface T {
+// number: number;
+// square:number;
+// }
+
+// function getSquareNumbers (number: number[]) :T[]{
+//   const result:T[] = number.map(num => ({ number: num, square: num * num }));
+//     console.log(result);
+//   return result;
+// };
+
+// getSquareNumbers([10, 11, 12, 13]); 
 
 
 
