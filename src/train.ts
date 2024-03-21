@@ -1,20 +1,95 @@
+// P-TASK:
+
+// Shunday function yozing, u object qabul qilsin va arrayni object arrayga otkazib arrayni qaytarsin.
+// MASALAN: objectToArray( {a: 10, b: 20}) return [['a', 10], ['b', 20]]
+interface T {
+  [key: string]: any;
+}
+
+function objectToArray(obj:T) {
+  const a = Object.keys(obj).map(ele => [ele, obj[ele]]);
+   console.log(a)
+ }
+ objectToArray({a: 10, b: 20});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // O-TASK:
 
 // Shunday function yozing, u har xil valuelardan iborat array qabul qilsin va array ichidagi sonlar yigindisini hisoblab chiqqan javobni qaytarsin.
 // MASALAN: calculateSumOfNumbers([10, "10", {son: 10}, true, 35]) return 45
-function calculateSumOfNumbers(arr: (number | string | object | boolean)[]): number {
-  let sum = 0;
-  for (let i = 0; i < arr.length; i++) {
-      const value= arr[i];
-      if (typeof value === 'number') {
-          sum += value;
-      }
-  }
-  return sum;
-}
+// function calculateSumOfNumbers(arr: (number | string | object | boolean)[]): number {
+//   let sum = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//       const value= arr[i];
+//       if (typeof value === 'number') {
+//           sum += value;
+//       }
+//   }
+//   return sum;
+// }
 
-const result: number = calculateSumOfNumbers([10, "10", {number: 10}, true, 35]);
-console.log(result); 
+// const result: number = calculateSumOfNumbers([10, "10", {number: 10}, true, 35]);
+// console.log(result); 
 
 
 
